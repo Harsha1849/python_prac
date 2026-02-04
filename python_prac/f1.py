@@ -1,6 +1,29 @@
-x="abc"
+#type conversion
+x=5
+y=2.5
+z=1j
 
-def myfunc():
-    print("python is:",x)
+a=float(x)
+b=int(y)
+c=complex(x)
+d=complex(y)
 
-myfunc()
+print(a)
+print(b)
+print(c)
+print(d)
+
+#random number
+import random
+
+print(random.randrange(1,10))
+
+#casting
+x=int(2)
+y=float(2)
+z=float("3")
+print(x,y,z)
+
+#strings
+h="""abababababab"""
+print (h)
