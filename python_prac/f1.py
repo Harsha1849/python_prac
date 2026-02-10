@@ -27,3 +27,11 @@ print(x,y,z)
 #strings
 h="""abababababab"""
 print (h)
+
+f="Hello, WOrld"
+print(f[1])
+
+for l in "banana":
+    print(l)
+
+print(len(f))
