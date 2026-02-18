@@ -12,3 +12,36 @@ print(my_list3[:3]) #By leaving out the start value, the range will start at the
 my_list4=["apple","banana","mango","cherry","kiwi","guava"]
 print(my_list4[2:]) #By leaving out the end value, the range will go on to the end of the list
 
+#append method
+my_list4.append("pineapple") #adds new element at the end
+print (my_list4)
+
+#insert method
+my_list.insert(0,"pineapple") #can add new element at any position
+print (my_list)
+
+#extend method
+my_list.extend(my_list2) #merge lists
+print (my_list)
+
+#remove method
+my_list.remove("pineapple")
+print (my_list)
+
+my_list.remove("banana") #If there are more than one item with the specified value, the remove() method removes the first occurrence
+print (my_list)
+
+#remove specified index
+my_list.pop(1)
+print(my_list)
+
+my_list.pop() #If you do not specify the index, the pop() method removes the last item.
+print(my_list)
+
+#delete entire list
+del my_list
+#print (my_list) #shows error
+
+#clear method
+my_list2.clear() 
+print (my_list2)
